@@ -13,10 +13,12 @@
         <div class="post-content gh-content gh-canvas">
             {{content}}
         </div>
+        <div class="gh-comments gh-canvas">
+            <div id="remark42"></div>
+        </div>
 
     </article>
 </main>
 
 {{/post}}
-<script defer src="https://comment.pie01.com/js/commento.js"></script>
-<div id="commento"></div>
+{{> remark42}}
