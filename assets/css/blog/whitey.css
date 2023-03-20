@@ -300,11 +300,15 @@ html, body {
 }
 #write ol {
 	padding-left: 1.2em;
+	margin-bottom: 1em;
 }
 #write blockquote {
 	margin-left: 1em;
 	padding-left: 1em;
 	border-left: 1px solid #ddd;
+	font-style: italic;
+	font-weight: 600;
+	color: #656565;
 }
 #write code,
 #write pre {
@@ -357,7 +361,8 @@ html, body {
 	padding: 8px;
 	line-height: 1.333333rem;
 	vertical-align: top;
-	border-top: 1px solid #ddd
+	border-top: 1px solid #ddd;
+	font-size: 10px;
 }
 #write table th {
 	font-weight: bold
